@@ -1,0 +1,8 @@
+.git
+**/bin
+**/obj
+**/TestResults
+.env
+secrets
+artifacts
+PublicRelay.local.props

@@ -1,0 +1,26 @@
+[
+  {
+    "Author": "RifleJock",
+    "Name": "Shout Calendar Sync",
+    "Punchline": "Optional sharing companion. Requires Shout Calendar.",
+    "Description": "Requires Shout Calendar to be installed and enabled. Shout Calendar Sync is an optional companion and does not provide a standalone calendar. It adds sharing of public Shout and Yell invites to Shout Calendar. Say, tells, party, alliance, free company, linkshells, and novice network are not shared.\n\nInstall Shout Calendar first, then this plugin. Open Shout Calendar to view shared invites and Sync settings.\n\nWhen Sync is attached, the world you are on replaces Local Calendar. Check another world to fetch it, then select it. The public relay is the default. Public relay is also the default backup. Matching primary and backup endpoints use one connection. Choose Backup > Off to keep a custom private group on its primary only.\n\nDownload and upload are capped separately, in megabits per second. Upload starts at 1 Mb/s. Removing this plugin removes shared events and leaves the invites you heard yourself.",
+    "Changelog": "Requires Shout Calendar 0.1.32 or newer. Improved status reporting, safe detail refresh and recurring deletion, public-relay fallback for custom primaries, duplicate-endpoint suppression, and sanitized connection diagnostics.",
+    "InternalName": "ShoutCalendar.Sync",
+    "AssemblyVersion": "0.2.9.0",
+    "RepoUrl": "https://github.com/ibigsnet/shout-calendar-sync",
+    "ApplicableVersion": "any",
+    "DalamudApiLevel": 15,
+    "LoadRequiredState": 0,
+    "LoadSync": false,
+    "CanUnloadAsync": false,
+    "LoadPriority": 10,
+    "AcceptsFeedback": true,
+    "IsHide": false,
+    "IsTestingExclusive": false,
+    "DownloadCount": 0,
+    "LastUpdate": 1790718928,
+    "DownloadLinkInstall": "https://github.com/ibigsnet/shout-calendar-sync/releases/download/v0.2.9/ShoutCalendar.Sync.zip",
+    "DownloadLinkUpdate": "https://github.com/ibigsnet/shout-calendar-sync/releases/download/v0.2.9/ShoutCalendar.Sync.zip",
+    "IconUrl": "https://raw.githubusercontent.com/ibigsnet/shout-calendar-sync/v0.2.9/images/icon.png"
+  }
+]

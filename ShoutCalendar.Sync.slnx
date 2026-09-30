@@ -1,0 +1,7 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/ShoutCalendar.Sync.Core/ShoutCalendar.Sync.Core.csproj" />
+    <Project Path="src/ShoutCalendar.Sync.Relay/ShoutCalendar.Sync.Relay.csproj" />
+    <Project Path="src/ShoutCalendar.Sync/ShoutCalendar.Sync.csproj" />
+  </Folder>
+</Solution>

@@ -1,0 +1,10 @@
+bin/
+obj/
+.vs/
+*.user
+TestResults/
+
+.env
+secrets/
+artifacts/
+PublicRelay.local.props

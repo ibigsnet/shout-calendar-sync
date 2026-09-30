@@ -1,0 +1,14 @@
+# Supply the hostname and private upstream through the Caddy process environment.
+# Add your own shared headers before deployment.
+{$RELAY_PUBLIC_HOST} {
+    request_body {
+        max_size 256KB
+    }
+    # Scrape metrics on the private relay address, not this public hostname.
+    @private path /metrics /v1/purge
+    respond @private 404
+    reverse_proxy {$RELAY_UPSTREAM} {
+        header_up X-Forwarded-For {remote_host}
+        header_up X-Real-IP {remote_host}
+    }
+}
